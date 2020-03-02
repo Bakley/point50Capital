@@ -31,18 +31,25 @@ a:active {
 a:visited {
     color: black;
 }
+/* 
+button {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.7);
+} */
 
 .main_application {
     width: 100%;
     margin: 0 auto;
     position: relative;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
 }
 
 .main_menu {
@@ -53,7 +60,6 @@ nav {
     position: relative;
     width: auto;
     text-align: center;
-
 }
 
 .button {
@@ -67,8 +73,15 @@ nav {
     margin-right: auto;
 }
 
-img {
+.logo {
     width: 140px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
 }
 
 .main_menu__navigation {
@@ -79,6 +92,11 @@ img {
 
 .main_menu__navigation-buttons {
     list-style: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
 
 .main_menu__navigation-buttons li {
@@ -95,16 +113,17 @@ img {
     color: #0088a9;
 }
 
-button {
-    padding: 9px 25px;
-    border: none;
-    border-radius: 50px;
+.main_menu__button-container {
+    width: 111px;
+    height: 36px;
+    background-color: transparent;
+    border: 1px solid #2ecc71;
+    border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin-left: 20px;
 }
-
-button:hover {
+    
+.main_menu__button-container:hover {
     background-color: rgba(0, 136, 169, 0.7);
 }
 
@@ -115,7 +134,8 @@ button:hover {
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 20px 100px;
+    padding: 0 10px;
+    margin-top: 30px;
 }
 
 .container:after {
@@ -129,6 +149,7 @@ button:hover {
     background-size: cover;
     z-index: -1;
     filter: blur(50px);
+    transform: scale(1.2);
 }
 
 .contact{
@@ -138,7 +159,8 @@ button:hover {
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 20px 100px;
+    padding: 0px 10px;
+    margin-top: 30px;
 }
 
 .contact::after {
@@ -232,7 +254,7 @@ p{
 
 }
 
-.btn{
+/* .btn{
     width: 100%;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
@@ -246,7 +268,7 @@ p{
 
 .btn:hover{
     background-color: #27ae60
-}
+} */
 
 
 

@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+.main_application {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.main_menu {
+    position: relative;
+    width: auto;
+    text-align: center;
+
+}
+
+.button {
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    letter-spacing: 0;
+    border: none;
+    outline: 0;
+}
+
+.main_menu__navigation {
+    text-decoration: none;
+    line-height: 1em;
+    overflow: hidden;
+}
+
+.main_menu__navigation-buttons {
+    list-style: none;
+}
+
+.main_menu__navigation-buttons li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.main_menu__navigation-buttons li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.main_menu__navigation-buttons li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.7);
+}
+/* 
+
+
+
+.button-logo {
+    position: absolute;
+    display: block;
+    width: 9.16667rem;
+    height: 100%;
+}
+
+.main-menu__button-logo {
+    margin-left: 0;
+}
+
+.button-logo__logo {
+    position: absolute;
+    width: 8.16667rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+
+
+
+.normal-menu .main-menu__navigation-buttons {
+    width: 100%;
+}
+
+.normal-menu .main-menu__navigation-buttons > .list-item {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+*/
+/* Responsiveness */
+/* @media only screen and (max-width: 500px){} */

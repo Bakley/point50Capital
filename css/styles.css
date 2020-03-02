@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+.main_application {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.main_menu {
+    position: relative;
+    width: auto;
+    text-align: center;
+
+}
+
+.button {
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    letter-spacing: 0;
+    border: none;
+    outline: 0;
+    margin-right: auto;
+}
+
+img {
+    width: 140px;
+}
+
+.main_menu__navigation {
+    text-decoration: none;
+    line-height: 1em;
+    overflow: hidden;
+}
+
+.main_menu__navigation-buttons {
+    list-style: none;
+}
+
+.main_menu__navigation-buttons li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.main_menu__navigation-buttons li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.main_menu__navigation-buttons li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.7);
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+} */
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.container:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/POINT-50-FOR\ WHITE\ BG.png) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.contact::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.contact-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffff;
+    box-shadow: 0px 0px 19px 5px rgba;
+}
+
+.contact .left {
+    height: 100%;
+    background: url(../img/sbg.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.left {
+    height: 100%;
+    background: url(../images/POINT-50-FOR\ WHITE\ BG.png) no-repeat center;
+    background-size: cover;
+}
+
+.right {
+    padding: 25px 40px;
+}
+
+h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+h2:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71
+}
+
+.field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: rgba(0, 0, 0, 0,1);
+}
+
+.field:focus{
+    background-color: #ffff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area{
+    min-height: 150px;
+
+}
+
+.btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #2ecc71;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #ffff;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: #27ae60
+}
+
+
+/* 
+
+
+
+.button-logo {
+    position: absolute;
+    display: block;
+    width: 9.16667rem;
+    height: 100%;
+}
+
+.main-menu__button-logo {
+    margin-left: 0;
+}
+
+.button-logo__logo {
+    position: absolute;
+    width: 8.16667rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+
+
+
+.normal-menu .main-menu__navigation-buttons {
+    width: 100%;
+}
+
+.normal-menu .main-menu__navigation-buttons > .list-item {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+*/
+/* Responsiveness */
+/* @media only screen and (max-width: 500px){} */

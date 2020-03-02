@@ -3,10 +3,33 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+a {
+    color: black;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
+a:active {
+    color: black;
+    color: #0088a9;
+}
+  
+a:visited {
+    color: black;
 }
 
 .main_application {

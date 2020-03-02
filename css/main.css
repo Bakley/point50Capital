@@ -34,6 +34,11 @@ nav {
     letter-spacing: 0;
     border: none;
     outline: 0;
+    margin-right: auto;
+}
+
+img {
+    width: 140px;
 }
 
 .main_menu__navigation {

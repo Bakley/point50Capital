@@ -332,6 +332,8 @@ nav {
     background: #000;
     color: #d3d3d3;
     height: 400px;
+    padding: 0 1%;
+    margin: 0 10%;
 }
 
 .footer .footer_content {
@@ -420,8 +422,6 @@ nav {
 }
 
 .footer .footer_bottom {
-    background: #000;
-    color: #686868;
     height: 50px;
     width: 100%;
     text-align: center;
@@ -429,7 +429,6 @@ nav {
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
-    
 }
 
 
